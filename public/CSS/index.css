@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.btn-add {
+    width: 150px;
+    height: 50px;
+    background-color: #86D293;
+    color: #161D6F;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+
+svg {
+    color: grey;
+    
+}
+svg:hover{
+    color: black;
+    width:2em;
+    height:2em;
+}
+#container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px; 
+    padding-right: 100px;
+    
+    
+}
+.btn-action{
+    position: relative;
+  display: inline-block;
+}
+.table {
+    margin-top: 20px; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.table th, .table td {
+    
+    border: 2px solid rgba(255, 255, 255, 0.5); 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.table th {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #000; 
+}
+.form-update {
+    display: felx;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:20px 30px 20px 30px;
+    background-color: white;
+    margin:10px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.6); 
+
+}
+label{
+    font-size: medium;
+    font-weight: bold;
+}
+.show{
+    margin:40px 100px 40px 100px; 
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 10px;
+    
+    
+}
+h2{
+    color: #161D6F;
+}
+.inline-title {
+    display: inline; 
+    margin-right: 5px;
+    padding-left: 20px; 
+}
+#search{
+    padding-right: 600px;
+}
